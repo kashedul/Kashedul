@@ -1,9 +1,12 @@
 package com.bitm.OrangeHRMAutomation.Test;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,7 +32,7 @@ private WebDriver wc = null;
 		
 		WebDriverWait wt = new WebDriverWait(wc, 20);
 		
-		WebElement el = wt.until(ExpectedConditions.elementToBeClickable(By.xpath(XpathUtils.LeaveListTest.LeaveList)));
+		WebElement el = wt.until(ExpectedConditions.elementToBeClickable(By.xpath(XpathUtils.LeaveListTest.Leave)));
 		
 		Assert.assertEquals(wc.getTitle(),UrlTextUtils.Text.LeaveListPageTitle);
 		
@@ -43,9 +46,12 @@ private WebDriver wc = null;
 		
 		for(LeaveListDTO leavelist:leavelistdata) {
 		
-		wc.findElement(By.xpath(XpathUtils.LeaveListTest.LeaveList)).click();
+		//wc.findElement(By.xpath(XpathUtils.LeaveListTest.LeaveList)).click();
 			
-			
+			//Double Click
+			Actions action = new Actions(wc) ;
+			action.moveToElement(wc.findElement(By.xpath(XpathUtils.LeaveListTest.Leave))).doubleClick().perform();
+		
 		
 		wc.findElement(By.xpath(XpathUtils.LeaveListTest.DatePicker)).click();
 		

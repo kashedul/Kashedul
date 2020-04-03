@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-03T15:54:09 OMST" name="OrangeHRM" finished-at="2020-04-03T15:54:39 OMST" duration-ms="29847">
+  <suite started-at="2020-04-03T19:58:20 OMST" name="OrangeHRM" finished-at="2020-04-03T19:58:49 OMST" duration-ms="28946">
     <groups>
     </groups>
-    <test started-at="2020-04-03T15:54:09 OMST" name="LoginTest" finished-at="2020-04-03T15:54:39 OMST" duration-ms="29847">
+    <test started-at="2020-04-03T19:58:20 OMST" name="LeaveListTest" finished-at="2020-04-03T19:58:49 OMST" duration-ms="28946">
       <class name="com.bitm.OrangeHRMAutomation.Test.LoginTest">
-        <test-method signature="checkloginpagetitle()[pri:1, instance:com.bitm.OrangeHRMAutomation.Test.LoginTest@78e94dcf]" started-at="2020-04-03T15:54:09 OMST" name="checkloginpagetitle" finished-at="2020-04-03T15:54:32 OMST" duration-ms="23289" status="PASS">
+        <test-method signature="checkloginpagetitle()[pri:1, instance:com.bitm.OrangeHRMAutomation.Test.LoginTest@78e94dcf]" started-at="2020-04-03T19:58:20 OMST" name="checkloginpagetitle" finished-at="2020-04-03T19:58:42 OMST" duration-ms="21441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkloginpagetitle -->
-        <test-method signature="logintest(java.util.List)[pri:2, instance:com.bitm.OrangeHRMAutomation.Test.LoginTest@78e94dcf]" started-at="2020-04-03T15:54:35 OMST" name="logintest" data-provider="loginData" finished-at="2020-04-03T15:54:38 OMST" duration-ms="3624" status="PASS">
+        <test-method signature="logintest(java.util.List)[pri:2, instance:com.bitm.OrangeHRMAutomation.Test.LoginTest@78e94dcf]" started-at="2020-04-03T19:58:43 OMST" name="logintest" data-provider="loginData" finished-at="2020-04-03T19:58:49 OMST" duration-ms="6119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,11 +24,11 @@
         </test-method> <!-- logintest -->
       </class> <!-- com.bitm.OrangeHRMAutomation.Test.LoginTest -->
       <class name="com.bitm.OrangeHRMAutomation.Test.LeaveListTest">
-        <test-method signature="CheckFlightFinderTitle()[pri:1, instance:com.bitm.OrangeHRMAutomation.Test.LeaveListTest@233fe9b6]" started-at="2020-04-03T15:54:38 OMST" name="CheckFlightFinderTitle" finished-at="2020-04-03T15:54:39 OMST" duration-ms="170" status="PASS">
+        <test-method signature="CheckFlightFinderTitle()[pri:1, instance:com.bitm.OrangeHRMAutomation.Test.LeaveListTest@233fe9b6]" started-at="2020-04-03T19:58:49 OMST" name="CheckFlightFinderTitle" finished-at="2020-04-03T19:58:49 OMST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckFlightFinderTitle -->
-        <test-method signature="logintest(java.util.List)[pri:2, instance:com.bitm.OrangeHRMAutomation.Test.LeaveListTest@233fe9b6]" started-at="2020-04-03T15:54:39 OMST" name="logintest" data-provider="leavelistData" finished-at="2020-04-03T15:54:39 OMST" duration-ms="0" status="FAIL">
+        <test-method signature="logintest(java.util.List)[pri:2, instance:com.bitm.OrangeHRMAutomation.Test.LeaveListTest@233fe9b6]" started-at="2020-04-03T19:58:49 OMST" name="logintest" data-provider="leavelistData" finished-at="2020-04-03T19:58:49 OMST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -69,6 +69,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- com.bitm.OrangeHRMAutomation.Test.LeaveListTest -->
-    </test> <!-- LoginTest -->
+    </test> <!-- LeaveListTest -->
   </suite> <!-- OrangeHRM -->
 </testng-results>

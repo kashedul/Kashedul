@@ -3,8 +3,9 @@
 
 <suite name = "OrangeHRM">
 
-   <test name = "LoginTest">
+   <test name = "LeaveListTest">
       <classes>
+         
          <class name = "com.bitm.OrangeHRMAutomation.Test.LoginTest" />
          <class name = "com.bitm.OrangeHRMAutomation.Test.LeaveListTest" />
       </classes>

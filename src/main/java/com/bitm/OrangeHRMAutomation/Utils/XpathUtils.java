@@ -14,7 +14,7 @@ public class LoginTest {
 
 public class LeaveListTest {
 
-	public static final String LeaveList = "//*[@id=\"dashboard-quick-launch-panel-menu_holder\"]/table/tbody/tr/td[2]/div/a/img";
+	public static final String Leave = "//*[@id=\"menu_leave_viewLeaveModule\"]/b";
 	
 	public static final String DatePicker = "//*[@id=\"calFromDate\"]";
 	
